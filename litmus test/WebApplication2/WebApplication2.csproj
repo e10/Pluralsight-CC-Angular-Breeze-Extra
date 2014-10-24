@@ -116,6 +116,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\attendee\attendees.html" />
+    <Content Include="app\codecamper.min.js" />
+    <Content Include="app\session\sessiondetail.html" />
+    <Content Include="app\session\sessions.html" />
+    <Content Include="app\speaker\speakerdetail.html" />
+    <Content Include="app\speaker\speakers.html" />
+    <Content Include="app\wip\wip.html" />
+    <Content Include="app\wip\wipwidget.html" />
     <Content Include="App_Data\.gitignore" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
@@ -211,7 +219,7 @@
     <Content Include="content\font\fontawesome-webfont.ttf" />
     <Content Include="content\font\fontawesome-webfont.eot" />
     <Content Include="content\font\FontAwesome.otf" />
-    <Content Include="content\styles.css" />
+    <Content Include="content\codecamper.min.css" />
     <Content Include="content\toastr.css" />
     <Content Include="content\toastr.less" />
     <Content Include="favicon.ico" />
@@ -222,6 +230,7 @@
     <Content Include="Scripts\angular-route.min.js" />
     <Content Include="Scripts\angular-sanitize.js" />
     <Content Include="Scripts\angular-sanitize.min.js" />
+    <Content Include="Scripts\angular.breeze.storagewip.js" />
     <Content Include="Scripts\angular.js" />
     <Content Include="Scripts\angular.min.js" />
     <Content Include="Scripts\angular.min.js.map" />
@@ -233,8 +242,12 @@
     <Content Include="Scripts\angular-mocks.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\breeze.angular.js" />
+    <Content Include="Scripts\breeze.dataService.mongo.js" />
     <Content Include="Scripts\breeze.debug.js" />
+    <Content Include="Scripts\breeze.directives.js" />
     <Content Include="Scripts\breeze.directives.validation.js" />
+    <Content Include="Scripts\breeze.metadata-helper.js" />
     <Content Include="Scripts\breeze.min.js" />
     <None Include="Scripts\jquery-2.0.3.intellisense.js" />
     <Content Include="Scripts\breeze.saveErrorExtensions.js" />
@@ -243,6 +256,7 @@
     <Content Include="Scripts\jquery-2.0.3.min.js" />
     <Content Include="Scripts\moment.js" />
     <Content Include="Scripts\moment.min.js" />
+    <Content Include="Scripts\ngplus-overlay.js" />
     <Content Include="Scripts\q.js" />
     <Content Include="Scripts\q.min.js" />
     <Content Include="Scripts\spin.js" />
@@ -251,6 +265,7 @@
     <Content Include="Scripts\toastr.min.js" />
     <Content Include="Scripts\ui-bootstrap-0.6.0.js" />
     <Content Include="Scripts\ui-bootstrap-0.6.0.min.js" />
+    <Content Include="Scripts\ui-bootstrap-tpls-0.10.0.js" />
     <Content Include="Scripts\ui-bootstrap-tpls-0.6.0.js" />
     <Content Include="Scripts\ui-bootstrap-tpls-0.6.0.min.js" />
     <Content Include="Web.config" />
@@ -288,6 +303,9 @@
       <Project>{d91ea111-bab8-41e3-86cb-e87fdcaecb60}</Project>
       <Name>CC.Model</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="app\NewFolder1\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
